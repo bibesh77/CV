@@ -1,0 +1,211 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("pic.jpg");
+	background-size: cover;
+	background-position: center;
+	 height: 100vh;
+}
+
+.nav-bar{
+	background: rgh(0, 0, 0, 0,);
+	height: 80px;
+
+}
+.menu{
+	float: right;
+	list-style: none;
+	margin: 20px;
+
+}
+.menu li{
+	display: inline-block;
+	margin: 10px 5px;
+}
+.menu li a{
+	text-decoration: none;
+	color: grey;
+	padding: 6px 11px;
+	letter-spacing: 2px;
+	border: 3px solid;
+	font-size: 30px;
+	border-radius: 15px;
+}
+
+.menu li a:hover{
+
+	font-size: 40px;
+}
+
+img{
+	height: 400px;
+	width: 300px;
+	border-radius: 59px;
+	justify-content: space-between;
+}
+
+h1{
+	position: relative;
+	text-align: center;
+	color: grey;
+	top: 160px;
+	font-size: 30px;
+	margin: 26px;
+
+}
+section{
+display: flex;
+flex-direction: row;
+width: 96%;
+}
+
+.photo1{
+	margin-left: 20px;
+}
+
+.welcome{
+	text-align: center;
+	float: center;
+}
+.info2{
+
+border: 5px solid black;
+
+margin-top: 100px;
+margin-left: 40px;
+margin-bottom: 120px;
+background-color: rgba(22,55,55,5);
+
+
+}
+.info2 p{
+	text-align: center;
+
+}
+
+.photo{
+	width: 20%;
+	height: 1px;
+	
+	margin-left: 20px;
+	
+	}
+
+	p {
+		font-size: 40px;
+	}
+
+.info4 { 
+	
+
+border: 5px solid black;
+margin-top: 100px;
+margin-left: 150px;
+margin-bottom: 120px;
+background-color: rgba(22,55,55,5);
+
+
+}
+
+.bio{
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	display: inline;
+}
+
+
+
+.aside{
+	color: white;
+margin-left:55px;
+border: 5px solid black;
+margin-top: 100px;
+}
+
+.aside h2{
+	color: black;
+}
+.aside hr{
+	color: black;
+}
+
+
+.number{
+	display: flex;
+
+	flex-direction: row;
+	
+	justify-content: space-around;
+	
+	margin-bottom:150px;
+}
+
+
+
+.maap{
+    top: 0;
+  
+
+}
+
+form{
+	
+	width:30%;
+	margin-left: 3%;
+	
+
+	text-align: left;
+}
+.form{
+margin-left: 40%;
+
+font-size: 30px;
+}
+
+form label{
+	display: flex;
+	flex-direction: column;
+	color: black;
+	
+}
+
+form input{
+	padding: 1%;
+	
+	font-color: red;
+
+}
+.logo{
+	width: 30%;
+	display: flex;
+	flex-direction: row;
+	margin: 10px;
+	padding: 10px;
+	padding-top: 100px;
+	margin-bottom: : 400px;
+	padding-bottom: 200px;
+	margin-left: 150px;
+
+}
+
+.logo img{
+	justify-content: space-between;
+	padding: 30px;
+	border-radius: 40px;
+	height: 150px;
+	width: 200px;
+}
+
+footer{
+	width:100%;
+	padding:10px 0 10px 0;
+	text-align: center;
+	
+	color: black;
+	background-color: lightblue;
+	
+
+}
